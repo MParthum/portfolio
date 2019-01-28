@@ -1,0 +1,52 @@
+/* General Styles */
+
+body{
+    line-height: 1.5;
+    text-align: center;
+}
+
+.orange{
+    color: #fd5f00;
+}
+
+.hide{
+    display: none;
+}
+
+/* Navbar Section */
+
+.logo{
+    height: 75px;
+    width: 75px;
+}
+
+.nav-section{
+    padding: 0;
+}
+
+.navbar{
+    padding: .5rem 0;
+}
+/* About Me Section */
+
+.profile-pic{
+    border-radius: 100%;
+    height: 50%;
+    margin-top: 25%;
+}
+
+.about-me-text{
+    margin-top: 12%;
+    text-align: left;
+    line-height: 2;
+}
+
+.btn-lg{
+    margin: 3% 0;
+}
+
+.heart{
+    display: inline-block;
+    width: 1.5rem;
+    font-size: .9rem;
+}
