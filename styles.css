@@ -1,52 +1,189 @@
 /* General Styles */
-
-body{
-    line-height: 1.5;
-    text-align: center;
+body {
+  line-height: 1.5;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.orange{
-    color: #fd5f00;
+h2 {
+  padding: 4%;
 }
 
-.hide{
-    display: none;
+.orange {
+  color: #fd5f00;
+}
+
+.grey-section {
+  background-color: #fafafa;
+}
+
+.arrow {
+  color: #fd5f00;
+  font-size: 1.5rem;
+  padding-bottom: 4%;
+}
+
+/* Highlighting */
+::-moz-selection {
+  /* Code for Firefox */
+  color: #05004e;
+  background: #99badd;
+}
+
+::selection {
+  color: #05004e;
+  background: #99badd;
 }
 
 /* Navbar Section */
-
-.logo{
-    height: 75px;
-    width: 75px;
+.logo {
+  height: 75px;
+  width: 75px;
 }
 
-.nav-section{
-    padding: 0;
-}
-
-.navbar{
-    padding: .5rem 0;
-}
 /* About Me Section */
-
-.profile-pic{
-    border-radius: 100%;
-    height: 50%;
-    margin-top: 25%;
+#about-me-section {
+  position: relative;
+  height: 90vh;
 }
 
-.about-me-text{
-    margin-top: 12%;
-    text-align: left;
-    line-height: 2;
+.about-me-section-background {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-image: url("images/charlotte.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
 
-.btn-lg{
-    margin: 3% 0;
+.about-me-content {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
-.heart{
-    display: inline-block;
-    width: 1.5rem;
-    font-size: .9rem;
+.highlight{
+    background-color: rgba(57, 62, 70, .75);
+    margin: 1px;
+    line-height: 1.5rem;
+    padding: .25rem;
+}
+
+.about-me-arrow {
+  position: absolute;
+  bottom: 4%;
+}
+
+.name {
+  color: #fd5f00;
+  font-weight: 900;
+}
+
+.about-me-text {
+  color: #fff;
+}
+
+.about-me-p {
+  color: #fff;
+  line-height: 2;
+}
+
+.heart {
+  display: inline-block;
+  font-size: .9rem;
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  line-height: 1.5;
+  width: 1.5rem;
+}
+
+/* Skills Section */
+.fa-html5 {
+  color: #fd5f00;
+}
+
+.fa-css3-alt {
+  color: #408ab4;
+}
+
+.fa-js-square {
+  color: #fffa67;
+}
+
+.fa-dollar-sign {
+  color: #05004e;
+}
+
+.fa-node-js {
+  color: #729d39;
+}
+
+.fa-python {
+  color: #074684;
+}
+
+.fa-database {
+  color: #448ef6;
+}
+
+.fa-running {
+  color: #c70039;
+}
+
+.bootstrap-icon {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+/* Card Section */
+.card {
+  margin: 4% auto;
+}
+
+/* Carousel Section */
+.carousel {
+  padding: 4%;
+}
+
+/* Footer Section */
+.social {
+  color: #05004e;
+  font-size: 3rem;
+  margin: 0 2rem 2rem;
+}
+
+.footer {
+  background-color: #fafafa;
+  color: #05004e;
+  padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  .profile-pic {
+    margin-top: 5%;
+  }
+
+  .about-me-text {
+    text-align: center;
+  }
+
+  .about-me-h2 {
+    padding: 0;
+  }
+
+  .btn-lg {
+    margin: 3%;
+  }
 }
