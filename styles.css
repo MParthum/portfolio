@@ -159,7 +159,7 @@ h2 {
 
 #experience-section {
   position: relative;
-  height: 65vh;
+  height: 60vh;
   color: #fff;
 }
 
@@ -266,6 +266,6 @@ thead{
 
 @media (max-width: 517px){
   #experience-section {
-    height: 90vh;
+    height: 95vh;
   }
 }
