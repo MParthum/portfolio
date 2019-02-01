@@ -247,3 +247,9 @@ h2 {
 }
 
 }
+
+@media (max-width: 517px){
+  #experience-section {
+    height: 80vh;
+  }
+}
