@@ -108,6 +108,10 @@ h2 {
 
 /* Skills Section */
 
+.skills-text{
+  padding-bottom: 4%;
+}
+
 .col-mid-6{
   margin-left: auto;
   margin-right: auto;
