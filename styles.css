@@ -183,8 +183,15 @@ h2 {
   .trunc{
     display: none;
   }
+
+.quote{
+  font-size: 1.5rem;
+}
+
+
 .social{
   font-size: 2.5rem;
+  margin: 0 1rem 1rem;
 }
 
 }
