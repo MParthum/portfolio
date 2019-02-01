@@ -110,6 +110,13 @@ h2 {
 }
 
 /* Skills Section */
+
+.col-mid-6{
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
 .fa-html5 {
   color: #fd5f00;
 }
@@ -143,7 +150,7 @@ h2 {
 }
 
 .bootstrap-icon {
-  height: 1.5rem;
+  height: 1.4rem;
   width: 1.5rem;
 }
 
@@ -170,20 +177,12 @@ h2 {
   padding: 1rem;
 }
 
-@media (max-width: 768px) {
-  .profile-pic {
-    margin-top: 5%;
+@media (max-width: 992px) {
+  .trunc{
+    display: none;
   }
+.social{
+  font-size: 2.5rem;
+}
 
-  .about-me-text {
-    text-align: center;
-  }
-
-  .about-me-h2 {
-    padding: 0;
-  }
-
-  .btn-lg {
-    margin: 3%;
-  }
 }
