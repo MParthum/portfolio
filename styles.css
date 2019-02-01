@@ -237,6 +237,10 @@ thead{
   margin: 0 2rem 2rem;
 }
 
+.social:hover{
+  color: #5b6575;
+}
+
 .footer {
   background-color: #fafafa;
   color: rgba(21, 35, 58, .86);
