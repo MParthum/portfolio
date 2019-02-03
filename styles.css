@@ -269,3 +269,9 @@ thead {
     height: 42rem;
   }
 }
+
+@media (max-width: 600px) and (orientation: landscape){
+  #experience-section {
+    height: 100rem;
+  }
+}
