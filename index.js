@@ -7,7 +7,7 @@ setInterval(function() {
   $(".heart").animate({
     fontSize: ".9rem"
   }, 250);
-}, 2000);
+}, 1500);
 
 $("a").on('click', function(event) {
   if (this.hash !== "") {

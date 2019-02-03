@@ -264,14 +264,30 @@ thead {
   }
 }
 
+
 @media (max-width: 517px) {
   #experience-section {
     height: 42rem;
   }
 }
 
-@media (max-width: 960px) and (orientation: landscape){
+@media (max-width: 1366px) and (orientation: landscape){
   #experience-section {
-    height: 42rem;
+    height: 34rem;
+  }
+  h1{
+    font-size: 2.1rem;
+  }
+}
+
+@media (min-width: 517px) and (max-width: 1024px){
+  #experience-section {
+    height: 33rem;
+  }
+}
+
+@media (max-width: 321px){
+  #experience-section {
+    height: 44rem;
   }
 }
