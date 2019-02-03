@@ -1,4 +1,4 @@
-//Heartbeat
+// Heartbeat
 
 setInterval(function() {
   $(".heart").animate({
@@ -8,6 +8,8 @@ setInterval(function() {
     fontSize: ".9rem"
   }, 250);
 }, 1500);
+
+// Smooth scroll animation
 
 $("a").on('click', function(event) {
   if (this.hash !== "") {
