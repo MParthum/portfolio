@@ -20,7 +20,7 @@ h2 {
 
 .arrow {
   font-size: 1.5rem;
-  padding-bottom: 4%;
+  padding-bottom: 2%;
 }
 
 .black-pearl{
@@ -95,8 +95,12 @@ h2 {
 }
 
 .absolute-arrow {
+  padding: 0;
   position: absolute;
-  bottom: 4%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 45px;
 }
 
 .name {
