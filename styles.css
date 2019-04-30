@@ -193,6 +193,10 @@ thead {
   margin: 4% auto;
 }
 
+.card-img-top{
+  height: 200px;
+}
+
 .btn {
   background-color: #fd5f00;
   font-weight: 700;
